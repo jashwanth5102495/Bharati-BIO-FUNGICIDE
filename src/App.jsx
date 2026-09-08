@@ -147,7 +147,7 @@ export default function App() {
                 <span className="text-lg">⚗️</span>
               </div>
               <div className="flex-1">
-                <div className="text-[#d9c98f] text-sm">Benefit</div>
+                <div className="text-[#d9c98f] text-sm">Mode of Action</div>
                 {Array.isArray(currentProduct.specification) ? (
                   <ul className="mt-1 text-sm sm:text-base text-white list-disc pl-4 space-y-1">
                     {currentProduct.specification.map((line, idx) => (
