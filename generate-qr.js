@@ -1,3 +1,4 @@
+/* eslint-env node */
 import QRCode from 'qrcode';
 import PDFDocument from 'pdfkit';
 import fs from 'fs';
@@ -64,3 +65,4 @@ async function main() {
 }
 
 main();
+
